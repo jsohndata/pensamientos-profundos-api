@@ -1,0 +1,28 @@
+# Process
+
+## Step1: Setup
+Getting the core setup.
+[Read: How to deploy an API on GCP](https://github.com/jsohndata/docs-build-recipes/blob/main/gcp-google-cloud-platform/create-and-deploy-api.md)
+
+- firebase init hosting
+- firebase init functions
+- cd functions && npm install
+ 
+
+<br>
+
+## Step 2: Structure
+Setting up the direcotry structures and some html pages.
+
+- pages
+
+<br>
+
+## Step3: MongoDB
+Getting MongoDB connected and setting up RESTful API end points
+
+[Read: RESTful API](https://github.com/jsohndata/docs-api/blob/main/restful-api.md)
+
+- routing
+- src
+- data
