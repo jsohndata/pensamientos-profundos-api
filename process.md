@@ -14,7 +14,13 @@ Getting the core setup.
 ## Step 2: Structure
 Setting up the direcotry structures and some html pages.
 
-- pages
+- functions/pages
+- functions/src
+- functions/data
+- public/styles
+- public/images
+- public/meta
+- public/dist
 
 <br>
 
@@ -24,5 +30,3 @@ Getting MongoDB connected and setting up RESTful API end points
 [Read: RESTful API](https://github.com/jsohndata/docs-api/blob/main/restful-api.md)
 
 - routing
-- src
-- data
