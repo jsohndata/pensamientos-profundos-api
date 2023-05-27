@@ -9,11 +9,11 @@ const rootUri = process.cwd();
 
 /* Root and 404 */
 app.get("/", (req,res) => {
-  res.status(200).send("I am gRoot");
+  res.status(200).sendFile(rootUri+"/pages/index.html");
 });
 
 app.get("*", (req,res) => {
-  res.status(404).send("404 Not Found");
+  res.status(404).sendFile(rootUri+"/pages/404.html");
 });
 
 export const api = functions.https.onRequest(app);
