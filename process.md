@@ -17,6 +17,7 @@ Setting up the direcotry structures and modify index.js.
 - functions/index.js
 - functions/pages
 - functions/src
+- functions/config
 - functions/data
 - public/styles
 - public/images
