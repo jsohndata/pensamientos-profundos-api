@@ -1,7 +1,7 @@
-import { getDbClient } from "./dbClient.js";
-import { ObjectId } from "mongodb";
+import {getDbClient} from "./dbClient.js";
+import {ObjectId} from "mongodb";
 
-const { dbClient, collectionName } = await getDbClient();
+const {dbClient, collectionName} = await getDbClient();
 const errMessage = { message: "💩oopsy! An error occurred." };
 
 const collectionClient = dbClient.collection(collectionName);
