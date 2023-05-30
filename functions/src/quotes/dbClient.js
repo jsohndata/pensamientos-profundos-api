@@ -1,9 +1,9 @@
-import { MongoClient } from 'mongodb';
+import {MongoClient} from 'mongodb';
 import dotenv from 'dotenv';
-require('dotenv').config({ path: '../../config/.env-mongo' });
+dotenv.config( {path: './config/.env'} );
 
-const { MONGO_URI } = process.env;
-const { DB_NAME } = process.env;
+const {MONGO_URI} = process.env;
+const {DB_NAME} = process.env;
 const COLLECTION_NAME = "quotes";
 
 export async function getDbClient() {

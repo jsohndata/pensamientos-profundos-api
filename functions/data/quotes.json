@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "quote": "The best way to predict the future is to create it.",
+    "author": "Abraham Lincoln"
+  },
+
+  {
+    "id": 2,
+    "quote": "Life is ten percent what happens to you and ninety percent how you respond to it.",
+    "author": "Lou Holtz"
+  },
+
+  {
+    "id": 3,
+    "quote": "The only disability in life is a bad attitude.",
+    "author": "Scott Hamilton"
+  },
+
+  {
+    "id": 4,
+    "quote": "Life is really simple, but we insist on making it complicated.",
+    "author": "孔夫子 (Confucius)"
+  }, 
+
+  {
+    "id": 5,
+    "quote": "Life is a series of natural and spontaneous changes. Don't resist them--that only creates sorrow. Let reality be reality. Let things flow naturally forward in whatever way they like.",
+    "author": "老子 (Lao Tzu)"
+  }
+]
