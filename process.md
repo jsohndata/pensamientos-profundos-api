@@ -32,3 +32,5 @@ Getting MongoDB connected and setting up RESTful API end points
 [Read: RESTful API](https://github.com/jsohndata/docs-api/blob/main/restful-api.md)
 
 - routing > functions/index.js
+- setting up mongo
+- .env
